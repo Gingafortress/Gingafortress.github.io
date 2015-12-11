@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sam Sharpe Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My portfolio site to display what I have learned and designed">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="./img/favicon-logo.jpg"/>
+	
+</head>
+<body>
+	<div>
+		<div>
+			<header>
+				<div class="contain-to-grid sticky" >
+			   		<nav class="top-bar" data-topbar>
+			     		<ul class="title-area name" >
+			     		<li><img src="./img/personal-logo.svg" alt="" class="logo "></li>
+			                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+			      		</ul>
+			
+				      	<section class="top-bar-section">
+				       		<ul class="right">
+				          		<li><a href="#about">About</a></li>
+				          		<li class="has-dropdown"><a href="#portfolio">Portfolio</a>
+									<ul class="dropdown">
+										<li><a href="#web-portfolio-anchor">Web</a></li>
+										<!-- <li><a href="#design-portfolio-anchor">Design</a></li> -->
+									</ul>
+				          		</li>
+				          		
+				                <li><a href="#contact">Contact</a></li>
+				                
+				            </ul>
+			            </section>
+			        </nav>
+			    </div>
+			</header>
+			<main>
+					<div class="row intro">
+						<div class="columns text-center">
+							<img src="./img/body-logo.svg" alt="" class="body-logo ">
+						</div>
+						<div class="columns text-center">
+							<h1 id="for-sharper-designs">FOR SHARPER DESIGNS</h1>
+						</div>
+						
+						<div class="columns text-center">
+							<h5>Welcome to my portfolio site. I hope you enjoy my designs.</h5>
+						</div>
+
+					</div>
+				
+					<a name="about"></a>
+					<div class="row" id="about-me">
+						<div class="columns text-center">
+							
+							<h2 id="about-heading"> – About Me – </h2>
+						</div>
+						<div class="text-center columns ">
+							<h5>Samuel James Sharpe</h5>
+							<h5>Web – Graphic Designer</h5>
+							<h5>Living in Wellington presently</h5>
+							<h5>Studying Web Development at Yoobee Design School</h5>
+							
+
+						</div>
+					</div>
+
+					<div class="row" id="portfolio">
+						<div class="columns">
+							<div class="row " >
+								<div class="columns text-center">
+									<h2 id="portfolio-label"> – My Portfolio – </h2>
+									<a name="portfolio"></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="columns text-center">
+									<h3 >Website Designs</h3>
+									<a name="web-portfolio-anchor"></a>
+								</div>
+								<div class="columns text-center">
+									<h5>Yoobee School of Design Web Development Assignments</h5>
+								</div>
+							</div>
+							<div class="row" id="sites">		
+								<div class="medium-3 columns text-center sites" >
+									<a href="http://sam.sharpe.yoobee.net.nz/_Assignments/WE02/public_html/index.html"><img src="./img/websites/savoy-logo.png" alt="" id="savoy-logo"></a>	
+								</div>
+
+								<div class="medium-3 columns text-center sites">
+									<a href="http://sam.sharpe.yoobee.net.nz/_Assignments/WE04/public_html/index.html"><img src="./img/websites/milk-logo/milk-logo.svg" alt="" id="milk-logo"></a>	
+								</div>
+								
+								<div class="medium-3 columns text-center sites" >
+									<a href="http://sam.sharpe.yoobee.net.nz/_Assignments/WE03/public_html/designink-assignment/www/index.php"><img src="./img/websites/designink/designink-logo.svg" alt="" id="designink-logo"></a>	
+								</div>
+
+								<div class="medium-3 columns text-center sites" >
+									<a href="http://solhorizons.sam.sharpe.yoobee.net.nz"><img src="./img/websites/solhorizons/solhorizons-logo.svg" alt="" id="solhorizons-logo"></a>	
+								</div>
+								
+							</div>
+							<div class="row">
+								<div class="columns text-center">
+									<h4 id="portfolio-label">More designs on the way!</h4>
+									<a name="design-portfolio-anchor"></a>
+								</div>
+								<!-- <div class="medium-4 columns text-center sites" >
+									
+								</div> -->
+							</div>
+						</div>
+					</div>
+					
+					<div class="row" id="contact">
+						<div class="columns text-center">
+							<a name="contact"></a>
+							<h2 id="contact-heading"> – Contact Me – </h2>
+							<div class="row">
+								<div class=" columns ">
+									<h4><i class="fa fa-phone icons" ></i><i class="fi-[icon]"></i> 027 387 5852</h4>
+								</div>
+								<div class="columns ">
+									<h4><i class="fa fa-envelope icons" ></i> sharperdesigner<i class="fa fa-at"></i>gmail.com</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+			</main>
+			<footer>
+			
+				
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/vendor/jquery.js"></script>
+			  	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+			  	<script>
+			    	// Initialize foundation
+			    	$(document).foundation();
+			    </script>
+			 //    <script>
+			 //    $(function() {
+  		// 			$('a[href*=#]:not([href=#])').click(function() {
+	   //  				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	   //    					var target = $(this.hash);
+	   //    					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      					
+	   //    					if (target.length) {
+	   //      					$('html,body').animate({
+	   //        					scrollTop: target.offset().top
+	   //      					}, 1000);
+	   //      				return false;
+	   //    					}
+	   //  				}
+  		// 			});
+				// });
+			 //    </script>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

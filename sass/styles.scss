@@ -1,0 +1,101 @@
+
+@import "mixins";
+
+
+.contain-to-grid {
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+
+
+body{
+    background-image: url("../img/bright_squares.png");
+	background-attachment: fixed;
+    font-family: Avenir;
+
+}
+// .portfolio {
+// 	background-color:rgba(255,255,255,0.3);
+	
+// }
+
+.logo{
+	height:40px;
+	margin-top:3px;
+	padding-left:10px;
+}
+
+.body-logo{
+	
+	height:200px;
+	margin-top:100px;
+	
+}
+h2, h3, h4, h5,p, li a{
+	letter-spacing:3px;
+	font-weight: 200;
+	
+}
+h3 {
+	@include breakpoint(smaller){
+		margin-bottom:30px;
+	}
+}
+// .intro{
+// 	padding-bottom:40px;
+// }
+#for-sharper-designs{
+	padding-top:50px;
+	padding-bottom:50px;
+	font-weight: 200;
+	letter-spacing: 4px;
+}
+#portfolio-label{
+	
+	@include breakpoint(tablet){
+	padding-top:20px;
+	margin-bottom:10px;
+	// background-color:rgba(255,255,255,0.3);	
+	}
+}
+#portfolio{
+	margin-top:100px;
+
+}
+.sites{
+	
+	height:220px;
+	margin-bottom:20px;
+	
+}
+#sites{
+	
+	margin-top:40px;
+}
+#savoy-logo{
+	padding-top:50px;
+}
+#designink-logo{
+	width:180px;
+}
+#milk-logo{
+	width:150px;
+}
+#about-me{
+	margin-top:100px;
+	
+}
+#contact{
+	margin-top:100px;
+	margin-bottom:40px;
+}
+#contact-heading{
+
+}
+.icons{
+	color:#4fba6f;
+}
+footer{
+	height:60px;
+	background-color:#222;
+}
